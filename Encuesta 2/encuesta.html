@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<div class="flex-column">
+        <link rel="stylesheet" href="styles.css">
+        <script src="jquery-3.5.1.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Encuesta de satisfacción</title>
+</head>
+<body>
+    <script>
+
+        //window.confirm("ERROR FATAL. Press Acept si me quieres y eso hará que el error se borre");
+
+        $(document).ready(function() {
+		$("body").click(function(event) {
+			$("body").fadeIn(5000);
+		});
+
+    </script>
+    <div class="container-fluid text-center main-container">
+        <div class="titulo">
+            <h1>Encuesta</h1>
+        </div><br>
+    <!--
+        <form method="POST" action="mailto:mariomariorivasrivas@gmail.com? subject=encuesta" enctype="text/plain">
+            -->
+            <form action="index.php" method="post">
+                <h2>Emocionalmente</h2><br>
+                    
+                    <p><b>1.</b> En el día a día, ¿emocionalmente hablando, se encuentra usted a gusto con Mario?</p>
+                        <input type="radio" name="emocionalmente1" value="emocional1_1" class="emocion">
+                            <label for="emocion">Muy a gusto</label>
+                        <input type="radio" name="emocionalmente1">
+                            <label for="emocion">A gusto</label>
+                        <input type="radio" name="emocionalmente1">
+                            <label for="emocion">Un poco a gusto</label> 
+                        <input type="radio" name="emocionalmente1">
+                            <label for="emocion">Nada a gusto</label>
+                        <br><br>
+
+                    <p><b>2.</b> ¿Considera que hablamos lo suficiente sobre nuestras emociones?</p>
+                    <input type="radio" name="emocionalmente2" id="emocionalmente2">
+                        <label for="emocion2">Si</label>
+                    <input type="radio" name="emocionalmente2" id="emocionalmente2">
+                        <label for="emocion2">No</label>
+                        <br><br>
+                
+                    <p><b>3.</b> Seguimos hablando de las emociones, ¿qué cree usted que podría mejorar el sujeto o
+                        qué cosas se podrían mejorar en la relación?</p>
+                    <textarea cols="80" rows="2" name="emocionalmente3"></textarea>
+    
+                        
+                    <br><a href="index.php">
+                    <button type="button" class="btn btn-primary">Finalizar</button>
+                    </a>
+                    </form>
+        </div>
+</body>
+</html>
