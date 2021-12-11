@@ -20,18 +20,18 @@
 		});
 
     </script>
-    <div class="container-fluid text-center main-container">
+
         <div class="titulo">
             <h1>Encuesta</h1>
         </div><br>
     <!--
-        <form method="POST" action="mailto:mariomariorivasrivas@gmail.com? subject=encuesta" enctype="text/plain">
+        <form method="POST" action="index.php" enctype="text/plain">
             -->
             <form action="index.php" method="post">
                 <h2>Emocionalmente</h2><br>
                     
                     <p><b>1.</b> En el día a día, ¿emocionalmente hablando, se encuentra usted a gusto con Mario?</p>
-                        <input type="radio" name="emocionalmente1" value="emocional1_1" class="emocion">
+                        <p><input type="radio" name="emocionalmente1" value="emocional1_1" class="emocion">
                             <label for="emocion">Muy a gusto</label>
                         <input type="radio" name="emocionalmente1">
                             <label for="emocion">A gusto</label>
@@ -39,18 +39,20 @@
                             <label for="emocion">Un poco a gusto</label> 
                         <input type="radio" name="emocionalmente1">
                             <label for="emocion">Nada a gusto</label>
+                        </p>
                         <br><br>
 
                     <p><b>2.</b> ¿Considera que hablamos lo suficiente sobre nuestras emociones?</p>
-                    <input type="radio" name="emocionalmente2" id="emocionalmente2">
+                    <p><input type="radio" name="emocionalmente2" id="emocionalmente2">
                         <label for="emocion2">Si</label>
                     <input type="radio" name="emocionalmente2" id="emocionalmente2">
                         <label for="emocion2">No</label>
+                    </p>
                         <br><br>
                 
                     <p><b>3.</b> Seguimos hablando de las emociones, ¿qué cree usted que podría mejorar el sujeto o
                         qué cosas se podrían mejorar en la relación?</p>
-                    <textarea cols="80" rows="2" name="emocionalmente3"></textarea>
+                    <p><textarea cols="80" rows="2" name="emocionalmente3"></textarea></p>
 
                 <h2>Comunicación</h2><br>
                 <p><b>1. </b>¿Que nivel de comunicación crees que tenemos en pareja?</p>
@@ -61,7 +63,7 @@
 
                 <p><b>4. </b>En general, ¿está satisfecha con la comunicación que hay?</p>
 
-                <p>Quiero probar la nueva rama testing de la siguiente forma: </p>ç
+                <p>Quiero probar la nueva rama testing de la siguiente forma: </p>
                 <ul>
                     <li>Ver que se crea la nueva rama y cambiar de esta a la main</li>
                     <li>Una vez haya cambiado, haya probado la main sin esto, hago pull request 
@@ -69,10 +71,12 @@
                     </ul>
     
                         
-                    <br><a href="index.php">
+                    <br>
+                    <p>
+                    <a href="index.php">
                     <button type="button" class="btn btn-primary">Finalizar</button>
-                    </a>
+                    </a></p>
                     </form>
-        </div>
+
 </body>
 </html>

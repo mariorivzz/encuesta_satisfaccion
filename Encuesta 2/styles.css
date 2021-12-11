@@ -2,11 +2,22 @@
     padding: 0;
  }
 
+
 h1{
     background:rgb(60, 18, 99);
     color:white;
     padding-bottom: 1em;
     padding-top: 1em;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+li{
+    text-align: center;
+    list-style: none;
 }
 
 .presentacion{
@@ -42,4 +53,15 @@ p{
 
 h5{
     text-align: center;
+}
+
+.footer{
+    background-color: rgb(60, 18, 99);
+    color: white;
+}
+
+.footer-col{
+    text-align: center;
+    margin: 2em 2em;
+    font-style: italic;
 }
